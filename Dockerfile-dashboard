@@ -1,6 +1,6 @@
-FROM node:18-alpine
+FROM node:20-alpine
 
-RUN npm install -g parse-dashboard@5.1.0
+RUN npm install -g parse-dashboard@latest
 
 COPY parse-dashboard-config.json /parse-dashboard-config.json
 
